@@ -55,6 +55,33 @@ width:10%;
     flex:12;
     background-color:blueviolet;
 }
+.infoFirst{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:100%;
+}
+.infoFirstTop{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:20%;
+}
+.infoGeneral{
+width:40%;
+}
+.imgBrocante{
+width:20%
+}
+.infoFirstBottom{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:20%;
+}
+
+
+
 .blockPhotoTxt{
     display:flex;
     flex-wrap: wrap;
@@ -81,10 +108,6 @@ width:10%;
     font-size: xx-large;
     text-align:center;
 }
-.infoTxt{
-    
-}
-
 
 
 /* FOOTER */
