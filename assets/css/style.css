@@ -1,3 +1,10 @@
 li{
     padding: 10px;
 }
+.reservation{
+    border: 2px solid #B5DCC9;
+    background-color: #6D90C6;
+}
+#reservation{
+    background-color: #6D90C6;
+}
