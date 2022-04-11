@@ -1,5 +1,4 @@
-html{
-}
+
 
 body{
     display:flex;
@@ -102,4 +101,10 @@ width:10%;
 }
 .help{
     width:20%
+}
+
+/* modification thibaud de la taille des photos descriptifs  */
+
+.photoColumn{
+
 }
