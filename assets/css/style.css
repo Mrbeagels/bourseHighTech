@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 
+=======
+html{
+    height:100%;
+    font: 1.2em "Fira Sans", Electrolize;
+}
+>>>>>>> be710682e19f7ba0eb29ed42a63670154c26b4d0
 
 body{
     display:flex;
@@ -8,6 +15,8 @@ body{
     background-color:green;
 }
 
+
+/* HEADER */
 .header{
     display:flex;
     flex-wrap: wrap;
@@ -42,7 +51,7 @@ width:10%;
 }
 
 
-
+/* MAIN */
 .main{
     display:flex;
     flex-wrap: wrap;
@@ -80,6 +89,9 @@ width:10%;
     
 }
 
+
+
+/* FOOTER */
 .footer{
     display:flex;
     flex-wrap: wrap;
