@@ -24,6 +24,10 @@ body{
 width:10%;
 text-align: center;
 }
+.logoSite{
+    max-height:100px;
+    max-width:100px;
+}
 .titleSite{
 width:50%;
 text-align: center;
@@ -56,4 +60,19 @@ width:10%;
     flex-direction: row;
     flex:1;
     background-color:coral;
+    align-items: center;
+    text-align:center;
+}
+.copyright{
+    width:20%;
+    background-color:blue;
+}
+.contact{
+    width:40%
+}
+.cgu{
+    width:20%
+}
+.help{
+    width:20%
 }
