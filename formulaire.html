@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!-- Réalisation du formulaire pour la bourse hightech -->
+<body>
+    <form method="post" action="#">
+        <fieldset class="reservation">
+            <legend id="reservation">Je réserve un emplacement</legend>
+
+            <ul>
+                <li>
+                    <label for="lName">Nom</label>
+                    <input type="text" name="name" id="lName" placeholder="Nom">
+                </li>
+
+                <li>
+                    <label for="fName">Prénom</label>
+                    <input type="text" name="fName" id="fName" placeholder="Prénom">
+                </li>
+
+                <li>
+                    <label for="phoneNumber">Numéro de téléphone</label>
+                    <input type="tel" name="phoneNumber" placeholder="Numéro de téléphone" id="phoneNumber">
+                </li>
+
+                <li>
+                    <label for="mailAdress">Adresse mail</label>
+                    <input type="email" name="mailAdress" id="mailAdress" placeholder="Adresse mail">
+                </li>
+
+                <li>
+                    <label for="typeSeller">Votre status de vendeur est : </label>
+
+                    <input type="radio" name="typeSeller" id="pro">Profesionnel
+
+                    <input type="radio" name="typeSeller" id="amateur">Particulier
+                </li>
+
+                <li>
+                    <label for="sizeWanted"> Mètre carré souhaité</label>
+                    <input type="number" name="sizeWanted" id="sizeWanted" placeholder="Métre carré">
+
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
