@@ -86,6 +86,9 @@ body {
 .imgBrocante {
     width: 60%;
 }
+.imgBrocanteBig {
+    width: 80%;
+}
 
 
 
@@ -114,11 +117,39 @@ body {
 /* SECURITY */
 .securityLeft {
     flex: 1;
+    text-align:left;
 }
 
 .securityRight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     flex: 1;
 }
+.securityBlock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 40px 0px 40px;
+}
+.securityImg{
+flex:1;
+}
+.imgSecurity{
+    max-width:50%;
+}
+.securityTxt{
+    flex:3;
+    text-align:center;
+}
+.securityTxtFull{
+width:90%;
+margin-left:40px;
+}
+
+
 
 .pBig{
     font-size: x-large;
