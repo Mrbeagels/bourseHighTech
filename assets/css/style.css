@@ -175,7 +175,7 @@ fieldset{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
 }
 .help{
     width:20%
@@ -240,6 +240,68 @@ li{
     max-width: 110px;
     max-height: 110px;
 }
+
+.fieldsetInformation{
+    text-align:left;
+    margin-left: 10px;
+}
+
+
+/* CONNECT - NEW */
+.LFconnect{
+    width:45%;
+    margin:2%;
+    align-items: flex-start;
+}
+.LFnew{
+    width:45%;
+    margin:2%;
+}
+input{
+    max-width:100%;
+}
+.infoFirstConnect {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+}
+legend{
+    font-size: x-large;
+    margin-left:20px;
+}
+
+
+
+/* PROFILE */
+.profileBanner{
+    font-size: xx-large;
+    margin:10px;
+}
+.profileTxt{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:45%;
+    margin:10px;
+}
+.profileinfoTxt{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:45%;
+    margin:10px;
+}
+.profileinfoInput{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:45%;
+    margin:10px;
+}
+
+
 
 /* FOOTER */
 .footer {
