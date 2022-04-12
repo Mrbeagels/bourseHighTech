@@ -288,7 +288,6 @@ input{
 }
 legend{
     font-size: x-large;
-    margin-left:20px;
 }
 
 
@@ -298,25 +297,35 @@ legend{
     font-size: xx-large;
     margin:10px;
 }
+.profileAsk{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:30%;
+    margin:10px;
+}
+.profileInfo{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:70%;
+}
+.profileInfoTxt{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:50%;
+}
 .profileTxt{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width:45%;
+    width:50%;
     margin:10px;
 }
-.profileinfoTxt{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width:45%;
-    margin:10px;
-}
-.profileinfoInput{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width:45%;
+.profileTxtInfo{
+    width:100%;
+    height:30px;
     margin:10px;
 }
 
