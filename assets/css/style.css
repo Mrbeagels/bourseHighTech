@@ -106,6 +106,7 @@ body {
 .infoFirstBottomTxt {
     flex:3;
     text-align:left;
+    margin-right:40px;
 }
 
 /* BANNER */
