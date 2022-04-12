@@ -189,9 +189,7 @@ fieldset{
 input{
     margin: 5px;
 }
-#inscription{
-    background-color: #6D90C6;
-}
+
 /* modification des fomulaires à revoir */
 
 .photoColumn {
@@ -289,13 +287,21 @@ legend{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width:70%;
+    flex:1;
 }
 .profileInfoTxt{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width:50%;
+    text-align:right;
+    font-style: italic;
+    flex:1;
+}
+.profileInfoTxtUser{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex:3;
 }
 .profileTxt{
     display:flex;
@@ -326,6 +332,7 @@ legend{
 }
 
 .copyright {
+    font-size:small;
     width: 20%;
     /* background-color:blue; */
 }
