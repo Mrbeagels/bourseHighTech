@@ -77,9 +77,6 @@ width:10%;
     font-size: xx-large;
     text-align:center;
 }
-.infoTxt{
-    
-}
 
 .footer{
     display:flex;
@@ -103,3 +100,19 @@ width:10%;
 .help{
     width:20%
 }
+/* modification des formulaires à revoir:  */
+
+.reservation{
+    padding: 20px;
+
+}
+input{
+    margin: 5px;
+}
+#reservation{
+    background-color: blue;
+}
+#inscription{
+    background-color: blue;
+}
+/* modification des fomulaires à revoir */
