@@ -237,6 +237,9 @@ li{
     max-width: 110px;
     max-height: 110px;
 }
+.imgCovid {
+    max-width: 26%;
+}
 
 .fieldsetInformation{
     text-align:left;
