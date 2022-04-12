@@ -70,14 +70,7 @@ body {
     width: 100%;
     /* background-color:pink; */
     text-align: center;
-}
-
-.infoFirstTop {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* background-color: blue; */
-    text-align: center;
+    align-items: center;
 }
 
 .infoGeneral {
@@ -91,7 +84,7 @@ body {
 }
 
 .imgBrocante {
-    width: 50%;
+    width: 60%;
 }
 
 .imgBrocanteBig {
