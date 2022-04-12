@@ -201,13 +201,13 @@ input {
     margin: 5px;
 }
 
-#reservation {
-    /* background-color: #6D90C6; */
-}
-
-#inscription {
+/* #reservation {
     background-color: #6D90C6;
-}
+} */
+
+/* #inscription {
+    background-color: #6D90C6;
+} */
 
 /* modification des fomulaires à revoir */
 
@@ -222,7 +222,6 @@ input {
 }
 
 .blockReservation {
-    align-items: center;
     text-align: left;
     align-items: center;
 }
@@ -254,6 +253,25 @@ li {
 .imgPhotoColumn {
     max-width: 110px;
     max-height: 110px;
+}
+
+.fieldsetInformation{
+    text-align:left;
+    margin-left: 10px;
+}
+
+
+/* CONNECT - NEW */
+.LFconnect{
+    width:46%;
+    margin:2%;
+}
+.LFnew{
+    width:46%;
+    margin:2%;
+}
+input{
+    max-width:100%;
 }
 
 
