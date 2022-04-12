@@ -1,3 +1,5 @@
+@import url('//fonts.googleapis.com/css?family=Electrolize:300,400,600,700&amp;lang=en');
+
 html {
     font: 1.2em "Fira Sans", Electrolize;
 }
@@ -7,7 +9,7 @@ body {
     flex-wrap: wrap;
     height: 100%;
     flex-direction: column;
-    background-color:#B5DCC9;
+    background-color: #B5DCC9;
 }
 
 
@@ -22,7 +24,8 @@ body {
     align-items: center;
     border: 2px solid #6D90C6;
     border-radius: 10px;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    ;
 }
 
 .logo {
@@ -53,10 +56,11 @@ body {
     width: 100px;
     border-radius: 10px;
 }
+
 .buttonValid {
     font-size: large;
-    height:30px;
-    width:100%;
+    height: 30px;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -93,6 +97,7 @@ body {
 .imgBrocante {
     width: 60%;
 }
+
 .imgBrocanteBig {
     width: 80%;
 }
@@ -106,26 +111,28 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .infoFirstBottomPhoto {
-    flex:2;
-    text-align:center;
+    flex: 2;
+    text-align: center;
 }
+
 .infoFirstBottomTxt {
-    flex:3;
-    text-align:left;
-    margin-right:40px;
+    flex: 3;
+    text-align: left;
+    margin-right: 40px;
 }
 
 /* BANNER */
 .bannerBoard {
     max-width: 95%;
-    margin:20px;
+    margin: 20px;
 }
 
 /* SECURITY */
 .securityLeft {
     flex: 1;
-    text-align:left;
+    text-align: left;
 }
 
 .securityRight {
@@ -134,6 +141,7 @@ body {
     flex-direction: column;
     flex: 1;
 }
+
 .securityBlock {
     display: flex;
     flex-wrap: wrap;
@@ -142,28 +150,32 @@ body {
     justify-content: center;
     margin: 0px 40px 0px 40px;
 }
-.securityImg{
-flex:1;
-}
-.imgSecurity{
-    max-width:50%;
-}
-.securityTxt{
-    flex:3;
-    text-align:center;
-}
-.securityTxtFull{
-width:90%;
-margin-left:40px;
+
+.securityImg {
+    flex: 1;
 }
 
-fieldset{
+.imgSecurity {
+    max-width: 50%;
+}
+
+.securityTxt {
+    flex: 3;
+    text-align: center;
+}
+
+.securityTxtFull {
+    width: 90%;
+    margin-left: 40px;
+}
+
+fieldset {
     border-radius: 10px;
     border-color: #6D90C6;
 }
 
 
-.pBig{
+.pBig {
     font-size: x-large;
 }
 
@@ -173,24 +185,30 @@ fieldset{
     flex-direction: row;
     align-items: center;
 }
-.help{
-    width:20%
+
+.help {
+    width: 20%
 }
+
 /* modification des formulaires à revoir:  */
 
-.reservation{
+.reservation {
     padding: 20px;
 
 }
-input{
+
+input {
     margin: 5px;
 }
-#reservation{
+
+#reservation {
     /* background-color: #6D90C6; */
 }
-#inscription{
+
+#inscription {
     background-color: #6D90C6;
 }
+
 /* modification des fomulaires à revoir */
 
 .photoColumn {
@@ -205,24 +223,27 @@ input{
 
 .blockReservation {
     align-items: center;
-    text-align:left;
+    text-align: left;
     align-items: center;
 }
-li{
-    margin:5px;
+
+li {
+    margin: 5px;
 }
+
 .txtColumn {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    text-align:center;
+    text-align: center;
     flex: 3;
     align-items: center;
 }
+
 .txtColumnCovid {
-    
-    margin:20px;
+
+    margin: 20px;
 }
 
 .infoTxtTitle {
@@ -250,6 +271,7 @@ li{
 }
 
 .copyright {
+    font-size: small;
     width: 20%;
     /* background-color:blue; */
 }
@@ -267,11 +289,11 @@ li{
 }
 
 /* CGU */
-.informLegal{
+.informLegal {
     font-size: 30px;
     color: #6D90C6;
 }
 
-.cguFont{
+.cguFont {
     font-size: 15px;
 }
