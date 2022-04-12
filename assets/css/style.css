@@ -183,7 +183,7 @@ fieldset {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .help {
@@ -287,11 +287,32 @@ legend{
     margin-left:20px;
 }
 
+
+
 /* PROFILE */
 .profileBanner{
+    font-size: xx-large;
     margin:10px;
 }
 .profileTxt{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:45%;
+    margin:10px;
+}
+.profileinfoTxt{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:45%;
+    margin:10px;
+}
+.profileinfoInput{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:45%;
     margin:10px;
 }
 
