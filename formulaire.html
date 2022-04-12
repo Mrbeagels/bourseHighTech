@@ -5,124 +5,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Electrolize:300,400,600,700&amp;lang=en" />
+    <title>Bourse Tech</title>
 </head>
-<!-- Réalisation du formulaire pour la bourse hightech  Le premier est le formulaire pour reserver un emplacement sur la brocante-->
+
 <body>
-    <form method="post" action="#">
-        <fieldset class="reservation">
-            <legend id="reservation">Je réserve un emplacement</legend>
 
-            <ul class="formulaire" >
-                <li>
-                    <label for="lName">Nom</label>
-                    <input type="text" name="lName" id="lName" placeholder="Nom">
-                </li>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="logo">
+            <!-- LOGO -->
+            <a href="index.html"><img class="logoSite" src="assets/img/logoBourse.jpg"></a>
+        </div>
+        <div class="titleSite">
+            BOURSE TECHNOLOGIQUE DE LA MAIRIE D'AMIENS
+        </div>
+        <div class="eventDate">
+            Rappel de l'évènement
+        </div>
+        <div class="connexion">
+            <!-- <form action="connect.html" method="post"> -->
+            <button class="button" onclick="document.location.href='connect.html';">Connexion</button>
+            <!-- </form> -->
+        </div>
+    </div>
 
-                <li>
-                    <label for="fName">Prénom</label>
-                    <input type="text" name="fName" id="fName" placeholder="Prénom">
-                </li>
+    <!-- MAIN -->
+    <div class="main">
 
-                <li>
-                    <label for="phoneNumber">Numéro de téléphone</label>
-                    <input type="tel" name="phoneNumber" placeholder="Numéro de téléphone" id="phoneNumber">
-                </li>
 
-                <li>
-                    <label for="mailAdress">Adresse mail</label>
-                    <input type="email" name="mailAdress" id="mailAdress" placeholder="Adresse mail">
-                </li>
 
-                <li>
-                    <label for="typeSeller">Votre status de vendeur est : </label>
-
-                    <input type="radio" name="typeSeller" id="pro">Profesionnel
-
-                    <input type="radio" name="typeSeller" id="amateur">Particulier
-                </li>
-
-                <li>
-                    <label for="sizeWanted"> Mètre carré souhaité</label>
-                    <input type="number" name="sizeWanted" id="sizeWanted" placeholder="Métre carré">
-                </li>
+        <form method="post" action="#">
+            <fieldset class="reservation">
+                <legend id="reservation">Je réserve un emplacement</legend>
+    
+                <ul class="formulaire" >
+                    <li>
+                        <label for="lName">Nom</label>
+                        <input type="text" name="lName" id="lName" placeholder="Nom">
+                    </li>
+    
+                    <li>
+                        <label for="fName">Prénom</label>
+                        <input type="text" name="fName" id="fName" placeholder="Prénom">
+                    </li>
+    
+                    <li>
+                        <label for="phoneNumber">Numéro de téléphone</label>
+                        <input type="tel" name="phoneNumber" placeholder="Numéro de téléphone" id="phoneNumber">
+                    </li>
+    
+                    <li>
+                        <label for="mailAdress">Adresse mail</label>
+                        <input type="email" name="mailAdress" id="mailAdress" placeholder="Adresse mail">
+                    </li>
+    
+                    <li>
+                        <label for="typeSeller">Votre status de vendeur est : </label>
+    
+                        <input type="radio" name="typeSeller" id="pro">Profesionnel
+    
+                        <input type="radio" name="typeSeller" id="amateur">Particulier
+                    </li>
+    
+                    <li>
+                        <label for="sizeWanted"> Mètre carré souhaité</label>
+                        <input type="number" name="sizeWanted" id="sizeWanted" placeholder="Métre carré">
+                    </li>
+                        <button type="submit">Je valide ma demande</button>
+    
+                </ul>
+            </fieldset>
+    
+                <!-- Le deuxieme est pour s'inscrire sur le site -->
+        </form>
+    
+        <form method="post" action="#">
+            <fieldset class="inscription">
+                <legend id="inscription">Je m'inscris</legend>
+                    <div class="personalInformation"> 
+                        <ul>
+                            <li>
+                                <label for="fName">Nom</label>
+                                <input type="text" id="fName" name="fName" placeholder="Nom">
+                            </li>
+                            <li>
+                                <label for="fName">Prénom</label>
+                                <input type="text" name="fName" id="fName" placeholder="Prénom">
+                            </li>
+    
+                            <li>
+                                <label for="age">Âge</label>
+                                <input type="text" name="age" id="age" placeholder="Âge">
+                            </li>
+                            <li>   
+                                <label for="gender">Genre </label>
+    
+                                <input type="radio" name="gender" id="male">Homme
+            
+                                <input type="radio" name="gender" id="female">femme
+    
+                                <input type="radio" name="gender" id="other"> other
+                            </li>
+                            </li>
+                        </ul>
+                </div>
+    
+                <div class="contactInformation" >  
+                    <li>
+                        <label for="adress">Adresse</label>
+                        <input type="text" id="adress" name="adress" placeholder="adress">
+                    </li>
+                    <li>
+                        <label for="zipCode">Code postal</label>
+                        <input type="text" name="zipCode" id="zipCode" placeholder="zipCode">
+                    </li>
+    
+                    <li>
+                        <label for="aditionalAdress">Complement d'adresse </label>
+                        <input type="text" id="aditionnalAdress" name="aditionalAdress" placeholder="n° rue, étages, lieu-dit ....">
+    
+                    </li>
+                    <li>
+                        <label for="phoneNumber">Numéro de téléphone</label>
+                        <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="phoneNumber">
+                    </li>
                     <button type="submit">Je valide ma demande</button>
+                </ul>
+    
+    
+    
+    
+    
+    
+    
+    
+                </div>
+    
+    
+    
+    
 
-            </ul>
-        </fieldset>
 
-            <!-- Le deuxieme est pour s'inscrire sur le site -->
-    </form>
 
-    <form method="post" action="#">
-        <fieldset class="inscription">
-            <legend id="inscription">Je m'inscris</legend>
-                <div class="personalInformation"> 
-                    <ul>
-                        <li>
-                            <label for="fName">Nom</label>
-                            <input type="text" id="fName" name="fName" placeholder="Nom">
-                        </li>
-                        <li>
-                            <label for="fName">Prénom</label>
-                            <input type="text" name="fName" id="fName" placeholder="Prénom">
-                        </li>
 
-                        <li>
-                            <label for="age">Âge</label>
-                            <input type="text" name="age" id="age" placeholder="Âge">
-                        </li>
-                        <li>   
-                            <label for="gender">Genre </label>
-
-                            <input type="radio" name="gender" id="male">Homme
         
-                            <input type="radio" name="gender" id="female">femme
+    </div>
 
-                            <input type="radio" name="gender" id="other"> other
-                        </li>
-                        </li>
-                    </ul>
-            </div>
-
-            <div class="contactInformation" >  
-                <li>
-                    <label for="adress">Adresse</label>
-                    <input type="text" id="adress" name="adress" placeholder="adress">
-                </li>
-                <li>
-                    <label for="zipCode">Code postal</label>
-                    <input type="text" name="zipCode" id="zipCode" placeholder="zipCode">
-                </li>
-
-                <li>
-                    <label for="aditionalAdress">Complement d'adresse </label>
-                    <input type="text" id="aditionnalAdress" name="aditionalAdress" placeholder="n° rue, étages, lieu-dit ....">
-
-                </li>
-                <li>
-                    <label for="phoneNumber">Numéro de téléphone</label>
-                    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="phoneNumber">
-                </li>
-                <button type="submit">Je valide ma demande</button>
-            </ul>
-
-
-
-
-
-
-
-
-            </div>
-
-
-
-
-
-
-
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="copyright">&#169;LOTHISTE</div>
+        <div class="contact"><a href="contact.html">Nous contacter</a></div>
+        <div class="cgu"><a href="cgu.html">CGU</a></div>
+        <div class="help"><a href="help.html">Aide</a></div>
+    </div>
 </body>
 
 </html>

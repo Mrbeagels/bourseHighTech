@@ -199,13 +199,52 @@
 
         <div class="txtColumn">
 
-            <div class="txtColumn">
-
+            <div class="blockReservation">
+                <fieldset class="reservation">
+                    <legend id="reservation">Je réserve un emplacement</legend>
+        
+                    <ul class="formulaire" >
+                        <li>
+                            <label for="lName">Nom</label>
+                            <input type="text" name="lName" id="lName" placeholder="Nom">
+                        </li>
+        
+                        <li>
+                            <label for="fName">Prénom</label>
+                            <input type="text" name="fName" id="fName" placeholder="Prénom">
+                        </li>
+        
+                        <li>
+                            <label for="phoneNumber">Numéro de téléphone</label>
+                            <input type="tel" name="phoneNumber" placeholder="Numéro de téléphone" id="phoneNumber">
+                        </li>
+        
+                        <li>
+                            <label for="mailAdress">Adresse mail</label>
+                            <input type="email" name="mailAdress" id="mailAdress" placeholder="Adresse mail">
+                        </li>
+        
+                        <li>
+                            <label for="typeSeller">Votre status de vendeur est : </label>
+        
+                            <input type="radio" name="typeSeller" id="pro">Profesionnel
+        
+                            <input type="radio" name="typeSeller" id="amateur">Particulier
+                        </li>
+        
+                        <li>
+                            <label for="sizeWanted"> Mètre carré souhaité</label>
+                            <input type="number" name="sizeWanted" id="sizeWanted" placeholder="Métre carré">
+                        </li>
+                            <button type="submit">Je valide ma demande</button>
+        
+                    </ul>
+                </fieldset>
 
                 
             </div>
-            <div class="txtColumn">
-                <img class="imgBrocanteBig" src="assets/img/consignes_covid.jpg">
+            <div class="txtColumnCovid">
+                <img src="assets/img/consignes_covid.jpg">
             </div>
 
         </div>

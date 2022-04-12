@@ -105,16 +105,8 @@ body {
 }
 .infoFirstBottomTxt {
     flex:3;
-<<<<<<< HEAD
-    align-items: center;
-}
-.infoTxtTitle{
-    font-size: xx-large;
-    text-align:center;
-=======
     text-align:left;
     margin-right:40px;
->>>>>>> 5f5cae4b1007ee71573073c06643d61748fed427
 }
 
 /* BANNER */
@@ -170,7 +162,6 @@ margin-left:40px;
     flex-direction: row;
     align-items: center;
 }
-<<<<<<< HEAD
 .help{
     width:20%
 }
@@ -190,7 +181,6 @@ input{
     background-color: blue;
 }
 /* modification des fomulaires à revoir */
-=======
 
 .photoColumn {
     display: flex;
@@ -202,6 +192,14 @@ input{
     /* background-color:antiquewhite; */
 }
 
+.blockReservation {
+    align-items: center;
+    text-align:left;
+    align-items: center;
+}
+li{
+    margin:5px;
+}
 .txtColumn {
     display: flex;
     flex-wrap: wrap;
@@ -210,6 +208,10 @@ input{
     text-align:center;
     flex: 3;
     align-items: center;
+}
+.txtColumnCovid {
+    
+    margin:20px;
 }
 
 .infoTxtTitle {
@@ -252,4 +254,3 @@ input{
 .help {
     width: 20%
 }
->>>>>>> 5f5cae4b1007ee71573073c06643d61748fed427
