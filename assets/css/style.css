@@ -372,11 +372,17 @@ legend{
 
 .blockContact {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     text-align:left;
     align-content: center;
-    width: 60vh;
+    flex:1;
+    margin:5px;
+}
+
+.txtContact{ 
+text-align:center;
 }
 
 .SScontact{
@@ -406,6 +412,7 @@ legend{
 
 .reseauSociaux{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .imgReseauSociaux{
