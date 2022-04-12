@@ -34,11 +34,12 @@ body {
 }
 
 .logoSite {
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 70px;
+    max-width: 70px;
 }
 
 .titleSite {
+    font-size: xx-large;
     width: 80%;
     text-align: center;
 }
@@ -70,7 +71,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex: 12;
     /* background-color:blueviolet; */
 }
 
@@ -222,12 +222,14 @@ input {
 }
 
 .blockReservation {
+    width:50%;
     text-align: left;
     align-items: center;
 }
 
-li {
+li{
     margin: 5px;
+    height:30px;
 }
 
 .txtColumn {
@@ -241,7 +243,6 @@ li {
 }
 
 .txtColumnCovid {
-
     margin: 20px;
 }
 
@@ -263,16 +264,37 @@ li {
 
 /* CONNECT - NEW */
 .LFconnect{
-    width:46%;
+    width:45%;
     margin:2%;
+    align-items: flex-start;
 }
 .LFnew{
-    width:46%;
+    width:45%;
     margin:2%;
 }
 input{
     max-width:100%;
 }
+.infoFirstConnect {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+}
+legend{
+    font-size: x-large;
+    margin-left:20px;
+}
+
+/* PROFILE */
+.profileBanner{
+    margin:10px;
+}
+.profileTxt{
+    margin:10px;
+}
+
 
 
 /* FOOTER */

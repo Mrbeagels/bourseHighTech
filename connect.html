@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Electrolize:300,400,600,700&amp;lang=en" /> -->
-    <title>Bourse Tech</title>
+    <title>Connexion - Inscription</title>
 </head>
 
 <body>
@@ -35,87 +35,85 @@
 
         <!-- CONNECT -->
 
-        <div class="infoFirst">
+        <div class="infoFirstConnect">
             <div class="LFconnect">
-                <form method="post" action="#">
-                    <fieldset class="inscription">
-                        <legend id="inscription">CONNEXION</legend>
-                        <div class="fieldsetInformation">
-                            <ul>
-                                <li>
-                                    <label for="email">Adresse mail</label>
-                                    <input type="text" name="email" id="email" placeholder="Adresse mail">
-                                </li>
-                                <li>
-                                    <label for="password">Mot de passe</label>
-                                    <input type="password" name="password" id="password" placeholder="Mot de passe">
-                                </li>
-                            </ul>
-                            <button type="submit" class="buttonValid">Je me connecte</button>
-                        </div>
-                    </fieldset>
-                </form>
+                <!-- <form method="post" action="#"> -->
+                <fieldset class="inscription">
+                    <legend id="inscription">CONNEXION</legend>
+                    <div class="fieldsetInformation">
+                        <ul>
+                            <li>
+                                <label for="email">Adresse mail</label>
+                                <input type="text" name="email" id="email" placeholder="Adresse mail" value="lothiste@gmail.com">
+                            </li>
+                            <li>
+                                <label for="password">Mot de passe</label>
+                                <input type="password" name="password" id="password" placeholder="Mot de passe" value="Crevette">
+                            </li>
+                        </ul>
+                        <button class="buttonValid" onclick="document.location.href='profile.html';">Je me
+                            connecte</button>
+                    </div>
+                </fieldset>
+                <!-- </form> -->
             </div>
             <div class="LFnew">
-                <form method="post" action="#">
-                    <fieldset class="inscription">
-                        <legend id="inscription">INSCRIPTION</legend>
-                        <div class="fieldsetInformation">
-                            <ul>
-                                <li>
-                                    <label for="fName">Nom</label>
-                                    <input type="text" id="fName" name="fName" placeholder="Nom">
-                                </li>
-                                <li>
-                                    <label for="lName">Prénom</label>
-                                    <input type="text" name="lName" id="lName" placeholder="Prénom">
-                                </li>
-                                <li>
-                                    <label for="email">Âge</label>
-                                    <input type="email" name="email" id="email" placeholder="Adresse mail">
-                                </li>
-                                <li>
-                                    <label for="age">Âge</label>
-                                    <input type="text" name="age" id="age" placeholder="Âge">
-                                </li>
-                                <li>
-                                    <label for="gender">Genre </label>
+                <!-- <form method="post" action="#"> -->
+                <fieldset class="inscription">
+                    <legend id="inscription">INSCRIPTION</legend>
+                    <div class="fieldsetInformation">
+                        <ul>
+                            <li>
+                                <label for="gender">Genre : </label>
+                                <input type="radio" name="gender" id="male">Homme
+                                <input type="radio" name="gender" id="female">Femme
+                                <input type="radio" name="gender" id="unknown">Indéterminé
+                                <input type="radio" name="gender" id="other">Autre
+                            </li>
+                            <li>
+                                <label for="fName">Nom</label>
+                                <input type="text" id="fName" name="fName" placeholder="Nom">
+                            </li>
+                            <li>
+                                <label for="lName">Prénom</label>
+                                <input type="text" name="lName" id="lName" placeholder="Prénom">
+                            </li>
+                            <li>
+                                <label for="email">Adresse mail</label>
+                                <input type="email" name="email" id="email" placeholder="Adresse mail">
+                            </li>
+                            <li>
+                                <label for="age">Âge</label>
+                                <input type="text" name="age" id="age" placeholder="Âge">
+                            </li>
+                            <li>
+                                <label for="adress">Adresse</label>
+                                <input type="text" id="adress" name="adress" placeholder="Adresse postale">
+                            </li>
+                            <li>
+                                <label for="aditionalAdress">Complement d'adresse </label>
+                                <input type="text" id="aditionalAdress" name="aditionalAdress"
+                                placeholder="n° rue, étages, lieu-dit ....">
+                            </li>
+                            <li>
+                                <label for="zipCode">Code postal</label>
+                                <input type="text" name="zipCode" id="zipCode" placeholder="Code postal">
+                            </li>
+                            <li>
+                                <label for="city">Ville</label>
+                                <input type="text" name="city" id="city" placeholder="Ville">
+                            </li>
 
-                                    <input type="radio" name="gender" id="male">Homme
-
-                                    <input type="radio" name="gender" id="female">femme
-
-                                    <input type="radio" name="gender" id="other"> other
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="fieldsetInformation">
-                            <ul>
-                                <li>
-                                    <label for="adress">Adresse</label>
-                                    <input type="text" id="adress" name="adress" placeholder="adress">
-                                </li>
-                                <li>
-                                    <label for="zipCode">Code postal</label>
-                                    <input type="text" name="zipCode" id="zipCode" placeholder="zipCode">
-                                </li>
-
-                                <li>
-                                    <label for="aditionalAdress">Complement d'adresse </label>
-                                    <input type="text" id="aditionalAdress" name="aditionalAdress"
-                                        placeholder="n° rue, étages, lieu-dit ....">
-
-                                </li>
-                                <li>
-                                    <label for="phoneNumber">Numéro de téléphone</label>
-                                    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="phoneNumber">
-                                </li>
-                            </ul>
-                            <button type="submit" class="buttonValid">Je valide ma demande</button>
-                        </div>
-                    </fieldset>
-                </form>
+                            <li>
+                                <label for="phoneNumber">Numéro de téléphone</label>
+                                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="phoneNumber">
+                            </li>
+                        </ul>
+                        <button class="buttonValid" onclick="document.location.href='newUser.html';">Je valide ma
+                            demande</button>
+                    </div>
+                </fieldset>
+                <!-- </form> -->
             </div>
 
         </div>
