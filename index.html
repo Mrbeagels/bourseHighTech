@@ -147,7 +147,13 @@
 
                 <div class="securityTxtFull">
                     <p>
+<<<<<<< HEAD
                         50 emplacements de 2 mètres chacuns
+=======
+                        50 emplacements de 1 mètre
+                        <br><i>Choix de placement
+                            <br>Accès voiture</i>
+>>>>>>> 438a4bd5036fb3386fdf0de4dc1cdb61ec30fdd3
                     </p>
                     <p>
                         Accessibilité aux personnes à mobilité réduite
@@ -188,6 +194,9 @@
             <div class="securityImg">
                 <img class="imgSecurity" src="assets/img/logo_sapeur_pompier.jpg">
             </div>
+
+            <button class="buttonValid" onclick="document.location.href='zoning.html';">Je reserve un
+                emplacement</button>
         </div>
 
 
@@ -201,56 +210,47 @@
 
         <div class="txtColumn">
 
-            <div class="blockReservation">
+            <!-- 
+                <div class="blockReservation">
                 <fieldset class="reservation">
                     <legend id="reservation">Je réserve un emplacement</legend>
-
                     <ul class="formulaire">
                         <li>
-                            <label for="lName">Nom</label>
-                            <input type="text" name="lName" id="lName" placeholder="Nom">
+                            <label for="typeSeller">Vous êtes un vendeur : </label>
+                            <input type="radio" name="typeSeller" id="pro">Professionnel
+                            <input type="radio" name="typeSeller" id="amateur">Particulier
                         </li>
-
+                        <li>
+                            <label for="lName">Nom, Prénom</label>
+                            <input type="text" name="lName" id="lName" placeholder="Nom, prénom">
+                        </li>
                         <li>
                             <label for="fName">Prénom</label>
                             <input type="text" name="fName" id="fName" placeholder="Prénom">
-                        </li>
-
+                        </li> 
                         <li>
                             <label for="phoneNumber">Numéro de téléphone</label>
                             <input type="tel" name="phoneNumber" placeholder="Numéro de téléphone" id="phoneNumber">
                         </li>
-
                         <li>
                             <label for="mailAdress">Adresse mail</label>
                             <input type="email" name="mailAdress" id="mailAdress" placeholder="Adresse mail">
-                        </li>
-
-                        <li>
-                            <label for="typeSeller">Vous êtes un vendeur : </label>
-
-                            <input type="radio" name="typeSeller" id="pro">Professionnel
-
-                            <input type="radio" name="typeSeller" id="amateur">Particulier
-                        </li>
-
+                        </li> 
                         <li>
                             <label for="sizeWanted"> Mètres carrés souhaités</label>
                             <input type="number" name="sizeWanted" id="sizeWanted"
                                 placeholder="Nombre de mètres carrés">
-                        </li>
-                        <button class="buttonValid" type="submit">
+                        </li><button class="buttonValid" type="submit">
                             <strong>Je valide ma demande</strong>
-                        </button>
-
+                        </button> 
                     </ul>
                 </fieldset>
+            </div> 
+        -->
 
-
-            </div>
             <div class="txtColumnCovid">
                 <img src="assets/img/consignes_covid.jpg">
-                <img id="txtColumnCovid" src="assets/img/portdumasque.png">
+                <img class="imgCovid" class="" src="assets/img/portdumasque.png">
             </div>
 
         </div>

@@ -64,6 +64,13 @@
                     <div class="fieldsetInformation">
                         <ul>
                             <li>
+                                <label for="typeSeller">Vous êtes un vendeur : </label>
+    
+                                <input type="radio" name="typeSeller" id="pro">Professionnel
+    
+                                <input type="radio" name="typeSeller" id="amateur">Particulier
+                            </li>
+                            <li>
                                 <label for="gender">Genre : </label>
                                 <input type="radio" name="gender" id="male">Homme
                                 <input type="radio" name="gender" id="female">Femme
@@ -83,11 +90,15 @@
                                 <input type="email" name="email" id="email" placeholder="Adresse mail">
                             </li>
                             <li>
-                                <label for="age">Âge</label>
-                                <input type="text" name="age" id="age" placeholder="Âge">
+                                <label for="phoneNumber">Numéro de téléphone</label>
+                                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Numéro de téléphone">
                             </li>
                             <li>
-                                <label for="adress">Adresse</label>
+                                <label for="age">Date de naissance</label>
+                                <input type="date" name="age" id="age" placeholder="Âge">
+                            </li>
+                            <li>
+                                <label for="adress">Adresse postale</label>
                                 <input type="text" id="adress" name="adress" placeholder="Adresse postale">
                             </li>
                             <li>
@@ -103,10 +114,9 @@
                                 <label for="city">Ville</label>
                                 <input type="text" name="city" id="city" placeholder="Ville">
                             </li>
-
                             <li>
-                                <label for="phoneNumber">Numéro de téléphone</label>
-                                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="phoneNumber">
+                                <label for="password">Mot de passe</label>
+                                <input type="password" name="password" id="password" placeholder="Mot de passe">
                             </li>
                         </ul>
                         <button class="buttonValid" onclick="document.location.href='newUser.html';">Je valide ma
