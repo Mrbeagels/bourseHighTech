@@ -1,0 +1,105 @@
+html{
+}
+
+body{
+    display:flex;
+    flex-wrap: wrap;
+    height:100%;
+    flex-direction: column;
+    background-color:green;
+}
+
+.header{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:100px;
+    flex:1;
+    background-color:aqua;
+    align-items: center;
+}
+.logo{
+width:10%;
+text-align: center;
+}
+.logoSite{
+    max-height:50px;
+    max-width:50px;
+}
+.titleSite{
+width:50%;
+text-align: center;
+}
+.eventDate{
+width:30%;
+}
+.connexion{
+width:10%;
+}
+.button{
+    height:30px;
+    width:100px;
+    border-radius: 10px;
+}
+
+
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex:12;
+    background-color:blueviolet;
+}
+.blockPhotoTxt{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.photoColumn{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+    background-color:antiquewhite;
+}
+.txtColumn{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    flex:3;
+    align-items: center;
+}
+.infoTxtTitle{
+    font-size: xx-large;
+    text-align:center;
+}
+.infoTxt{
+    
+}
+
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex:1;
+    background-color:coral;
+    align-items: center;
+    text-align:center;
+}
+.copyright{
+    width:20%;
+    background-color:blue;
+}
+.contact{
+    width:40%
+}
+.cgu{
+    width:20%
+}
+.help{
+    width:20%
+}
