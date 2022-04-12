@@ -191,3 +191,13 @@ body {
 .help {
     width: 20%
 }
+
+/* CGU */
+.informLegal{
+    font-size: 30px;
+    color: #6D90C6;
+}
+
+.cguFont{
+    font-size: 15px;
+}
