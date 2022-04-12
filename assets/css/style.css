@@ -281,8 +281,21 @@ legend{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width:30%;
+    width:20%;
     margin:10px;
+}
+.profileAskInfo{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex:2;
+}
+.profileAsk{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:95%;
+    margin:20px;
 }
 .profileInfo{
     display:flex;
