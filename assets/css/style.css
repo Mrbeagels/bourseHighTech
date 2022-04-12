@@ -243,7 +243,11 @@ li{
 }
 
 .txtColumnCovid {
-    margin: 20px;
+    margin: 50px;
+}
+#txtColumnCovid{
+    height: 230px;
+    margin-left: 200px;  
 }
 
 .infoTxtTitle {
