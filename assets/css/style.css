@@ -10,7 +10,6 @@ body {
     background-color:#B5DCC9;
 }
 
-
 /* HEADER */
 .header {
     display: flex;
@@ -53,13 +52,13 @@ body {
     width: 100px;
     border-radius: 10px;
 }
+
 .buttonValid {
     font-size: large;
     height:30px;
     width:100%;
     border-radius: 10px;
 }
-
 
 /* MAIN */
 .main {
@@ -93,11 +92,10 @@ body {
 .imgBrocante {
     width: 60%;
 }
+
 .imgBrocanteBig {
     width: 80%;
 }
-
-
 
 .infoFirstBottom {
     display: flex;
@@ -106,10 +104,12 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .infoFirstBottomPhoto {
     flex:2;
     text-align:center;
 }
+
 .infoFirstBottomTxt {
     flex:3;
     text-align:left;
@@ -134,6 +134,7 @@ body {
     flex-direction: column;
     flex: 1;
 }
+
 .securityBlock {
     display: flex;
     flex-wrap: wrap;
@@ -142,12 +143,15 @@ body {
     justify-content: center;
     margin: 0px 40px 0px 40px;
 }
+
 .securityImg{
 flex:1;
 }
+
 .imgSecurity{
     max-width:50%;
 }
+
 .securityTxt{
     flex:3;
     text-align:center;
@@ -180,8 +184,8 @@ fieldset{
 
 .reservation{
     padding: 20px;
-
 }
+
 input{
     margin: 5px;
 }
@@ -208,9 +212,11 @@ input{
     text-align:left;
     align-items: center;
 }
+
 li{
     margin:5px;
 }
+
 .txtColumn {
     display: flex;
     flex-wrap: wrap;
@@ -220,8 +226,8 @@ li{
     flex: 3;
     align-items: center;
 }
-.txtColumnCovid {
-    
+
+.txtColumnCovid { 
     margin:20px;
 }
 
@@ -234,7 +240,6 @@ li{
     max-width: 110px;
     max-height: 110px;
 }
-
 
 /* FOOTER */
 .footer {
@@ -274,4 +279,69 @@ li{
 
 .cguFont{
     font-size: 15px;
+}
+
+/* Nous contacter */
+.txtContact{
+    text-align: center;
+}
+
+.SStxtColumn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.blockContact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align:left;
+    align-content: center;
+    width: 60vh;
+}
+
+.SScontact{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.bpEnvoiContact {
+    align-self: center;
+    font-size: large;
+    height:30px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.fullreseauSociaux{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vh;
+    width: 30vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.reseauSociaux{
+    display: flex;
+}
+
+.imgReseauSociaux{
+    width:15%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.txtReseauSociaux{
+    margin-left: 10px;
+}
+
+.tatoo{
+    font-size: 12px;
 }
