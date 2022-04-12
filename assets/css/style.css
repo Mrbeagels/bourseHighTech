@@ -87,21 +87,28 @@ body {
     width: 60%;
 }
 
-.imgBrocanteBig {
-    width: 80%;
-}
 
 
 .infoFirstBottom {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.infoFirstBottomPhoto {
+    flex:2;
+    text-align:center;
+}
+.infoFirstBottomTxt {
+    flex:3;
+    text-align:left;
 }
 
 /* BANNER */
 .bannerBoard {
-    max-width: 100%;
-    max-height: 25%;
+    max-width: 95%;
+    margin:20px;
 }
 
 /* SECURITY */
@@ -113,6 +120,9 @@ body {
     flex: 1;
 }
 
+.pBig{
+    font-size: x-large;
+}
 
 .blockPhotoTxt {
     display: flex;
@@ -136,6 +146,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    text-align:center;
     flex: 3;
     align-items: center;
 }
