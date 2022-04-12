@@ -1,102 +1,176 @@
-html{
+html {
+    font: 1.2em "Fira Sans", Electrolize;
 }
 
-body{
-    display:flex;
+body {
+    display: flex;
     flex-wrap: wrap;
-    height:100%;
+    height: 100%;
     flex-direction: column;
-    background-color:green;
+    /* background-color:green; */
 }
 
-.header{
-    display:flex;
+
+/* HEADER */
+.header {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height:100px;
-    flex:1;
-    background-color:aqua;
+    height: 100px;
+    flex: 1;
+    /* background-color:aqua; */
     align-items: center;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
 }
-.logo{
-width:10%;
-text-align: center;
+
+.logo {
+    width: 10%;
+    text-align: center;
 }
-.logoSite{
-    max-height:50px;
-    max-width:50px;
+
+.logoSite {
+    max-height: 50px;
+    max-width: 50px;
 }
-.titleSite{
-width:50%;
-text-align: center;
+
+.titleSite {
+    width: 50%;
+    text-align: center;
 }
-.eventDate{
-width:30%;
+
+.eventDate {
+    width: 30%;
 }
-.connexion{
-width:10%;
+
+.connexion {
+    width: 10%;
 }
-.button{
-    height:30px;
-    width:100px;
+
+.button {
+    height: 30px;
+    width: 100px;
     border-radius: 10px;
 }
 
 
-
-.main{
-    display:flex;
+/* MAIN */
+.main {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex:12;
-    background-color:blueviolet;
+    flex: 12;
+    /* background-color:blueviolet; */
 }
-.blockPhotoTxt{
-    display:flex;
+
+.infoFirst {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    /* background-color:pink; */
+    text-align: center;
+    align-items: center;
+}
+
+.infoGeneral {
+    width: 40%;
+    /* text-align: center; */
+}
+
+.blockImgBrocante {
+    width: 20%;
+    /* text-align: center; */
+}
+
+.imgBrocante {
+    width: 60%;
+}
+.imgBrocanteBig {
+    width: 80%;
+}
+
+
+
+.infoFirstBottom {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
-.photoColumn{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    flex:1;
-    align-items: center;
-    background-color:antiquewhite;
+.infoFirstBottomPhoto {
+    flex:2;
+    text-align:center;
 }
-.txtColumn{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+.infoFirstBottomTxt {
     flex:3;
+<<<<<<< HEAD
     align-items: center;
 }
 .infoTxtTitle{
     font-size: xx-large;
     text-align:center;
+=======
+    text-align:left;
+    margin-right:40px;
+>>>>>>> 5f5cae4b1007ee71573073c06643d61748fed427
 }
 
-.footer{
-    display:flex;
+/* BANNER */
+.bannerBoard {
+    max-width: 95%;
+    margin:20px;
+}
+
+/* SECURITY */
+.securityLeft {
+    flex: 1;
+    text-align:left;
+}
+
+.securityRight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+}
+.securityBlock {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    flex:1;
-    background-color:coral;
     align-items: center;
+    justify-content: center;
+    margin: 0px 40px 0px 40px;
+}
+.securityImg{
+flex:1;
+}
+.imgSecurity{
+    max-width:50%;
+}
+.securityTxt{
+    flex:3;
     text-align:center;
 }
-.copyright{
-    width:20%;
-    background-color:blue;
+.securityTxtFull{
+width:90%;
+margin-left:40px;
 }
-.contact{
-    width:40%
+
+
+
+.pBig{
+    font-size: x-large;
 }
-.cgu{
-    width:20%
+
+.blockPhotoTxt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
 }
+<<<<<<< HEAD
 .help{
     width:20%
 }
@@ -116,3 +190,66 @@ input{
     background-color: blue;
 }
 /* modification des fomulaires à revoir */
+=======
+
+.photoColumn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    /* background-color:antiquewhite; */
+}
+
+.txtColumn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    flex: 3;
+    align-items: center;
+}
+
+.infoTxtTitle {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.imgPhotoColumn {
+    max-width: 110px;
+    max-height: 110px;
+}
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+    /* background-color:coral; */
+    align-items: center;
+    text-align: center;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+}
+
+.copyright {
+    width: 20%;
+    /* background-color:blue; */
+}
+
+.contact {
+    width: 40%
+}
+
+.cgu {
+    width: 20%
+}
+
+.help {
+    width: 20%
+}
+>>>>>>> 5f5cae4b1007ee71573073c06643d61748fed427
