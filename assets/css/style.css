@@ -73,11 +73,11 @@ width:10%;
     text-align:center;
 }
 .infoGeneral{
-width:40%;
+    flex:3;
 text-align:center;
 }
 .BlockImgBrocante{
-width:20%;
+    flex:1;
 text-align:center;
 }
 .imgBrocante{
