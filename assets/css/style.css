@@ -35,7 +35,7 @@ body {
 }
 
 .titleSite {
-    width: 50%;
+    width: 80%;
     text-align: center;
 }
 
@@ -188,9 +188,6 @@ fieldset{
 
 input{
     margin: 5px;
-}
-#reservation{
-    /* background-color: #6D90C6; */
 }
 #inscription{
     background-color: #6D90C6;
