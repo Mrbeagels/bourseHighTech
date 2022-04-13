@@ -43,7 +43,8 @@ body {
 }
 
 .logoSite {
-    max-width: 90px;
+    max-height: 50px;
+    max-width: 50px;
 }
 
 .titleSite {
@@ -470,25 +471,11 @@ footer {
 
 .blockContact {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     text-align:left;
     align-content: center;
-    flex:3;
-    margin:5px;
-}
-.blockContactColumn {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align:left;
-    flex:2;
-    margin:5%;
-}
-
-.txtContact{ 
-text-align:center;
+    width: 60vh;
 }
 
 .SScontact{
@@ -518,22 +505,18 @@ text-align:center;
 
 .reseauSociaux{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .imgReseauSociaux{
-    max-width:15%;
-    max-width:15%;
+    width:15%;
     margin-top: auto;
     margin-bottom: auto;
 }
 .imgReseauSociauxThierry{
-    max-width:15%;
-    max-width:15%;
+    width:15%;
     margin-top: auto;
+    border-radius:5px;
     margin-bottom: auto;
-    border-radius:10px;
-    border:2px solid pink;
 }
 
 .txtReseauSociaux{
