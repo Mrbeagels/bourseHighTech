@@ -32,21 +32,21 @@
         <div class="infoFirstConnect">
             <div class="LFconnect">
                 <!-- <form method="post" action="#"> -->
-                <fieldset class="inscription">
-                    <legend id="inscription">CONNEXION</legend>
+                <fieldset>
+                    <legend>CONNEXION</legend>
                     <div class="fieldsetInformation">
-                        <ul>
-                            <li>
-                                <label for="email">Adresse mail</label>
+                        <div class="blockRow">
+                            <div class="blockColumn">
+                                <label class="height30px txtAlignRight" for="email">Adresse mail</label>
+                                <label class="height30px txtAlignRight" for="password">Mot de passe</label>
+                            </div>
+                            <div class="blockColumn2">
                                 <input type="text" name="email" id="email" placeholder="Adresse mail"
                                     value="lothiste@gmail.com">
-                            </li>
-                            <li>
-                                <label for="password">Mot de passe</label>
                                 <input type="password" name="password" id="password" placeholder="Mot de passe"
                                     value="Crevette">
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                         <button class="buttonValid" onclick="document.location.href='profile.html';">Je me
                             connecte</button>
                     </div>
@@ -55,66 +55,95 @@
             </div>
             <div class="LFnew">
                 <!-- <form method="post" action="#"> -->
-                <fieldset class="inscription">
-                    <legend id="inscription">INSCRIPTION</legend>
-                    <div class="fieldsetInformation">
-                        <ul>
-                            <li>
-                                <label for="typeSeller">Vous êtes un vendeur : </label>
-
-                                <input type="radio" name="typeSeller" id="pro">Professionnel
-
-                                <input type="radio" name="typeSeller" id="amateur">Particulier
-                            </li>
-                            <li>
-                                <label for="gender">Genre : </label>
-                                <input type="radio" name="gender" id="male">Homme
-                                <input type="radio" name="gender" id="female">Femme
-                                <input type="radio" name="gender" id="unknown">Indéterminé
-                                <input type="radio" name="gender" id="other">Autre
-                            </li>
-                            <li>
-                                <label for="fName">Nom</label>
-                                <input type="text" id="fName" name="fName" placeholder="Nom">
-                            </li>
-                            <li>
-                                <label for="lName">Prénom</label>
-                                <input type="text" name="lName" id="lName" placeholder="Prénom">
-                            </li>
-                            <li>
-                                <label for="email">Adresse mail</label>
-                                <input type="email" name="email" id="email" placeholder="Adresse mail">
-                            </li>
-                            <li>
-                                <label for="phoneNumber">Numéro de téléphone</label>
-                                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Numéro de téléphone">
-                            </li>
-                            <li>
-                                <label for="age">Date de naissance</label>
-                                <input type="date" name="age" id="age" placeholder="Âge">
-                            </li>
-                            <li>
-                                <label for="adress">Adresse postale</label>
-                                <input type="text" id="adress" name="adress" placeholder="Adresse postale">
-                            </li>
-                            <li>
-                                <label for="aditionalAdress">Complement d'adresse </label>
-                                <input type="text" id="aditionalAdress" name="aditionalAdress"
-                                    placeholder="n° rue, étages, lieu-dit ....">
-                            </li>
-                            <li>
-                                <label for="zipCode">Code postal</label>
-                                <input type="text" name="zipCode" id="zipCode" placeholder="Code postal">
-                            </li>
-                            <li>
-                                <label for="city">Ville</label>
-                                <input type="text" name="city" id="city" placeholder="Ville">
-                            </li>
-                            <li>
-                                <label for="password">Mot de passe</label>
-                                <input type="password" name="password" id="password" placeholder="Mot de passe">
-                            </li>
-                        </ul>
+                <fieldset>
+                    <legend>INSCRIPTION</legend>
+                    <div class="blockColumn justifyContent">
+                        <div class="blockColumn txtAlignCenter">
+                            <div class="blockRow">
+                                <div class="blockcolumn">
+                                    <label class="height30px" for="typeSeller">Vous êtes un vendeur : </label>
+                                </div>
+                                <div class="blockcolumn">
+                                    <div class="txtAlignLeft">
+                                        <input type="radio" name="typeSeller" id="pro">Professionnel
+                                    </div>
+                                    <div class="txtAlignLeft">
+                                        <input type="radio" name="typeSeller" id="amateur">Particulier
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blockRow">
+                            <div class="blockColumn3 txtAlignRight">
+                                <div class="height40px">
+                                    <label for="fName">Nom</label>
+                                </div>
+                                <div class="height40px">
+                                    <label for="lName">Prénom</label>
+                                </div>
+                                <div class="height40px">
+                                    <label for="email">Adresse mail</label>
+                                </div>
+                                <div class="height40px">
+                                    <label for="phoneNumber">Numéro de téléphone</label></div>
+                                <div class="height40px">
+                                    <label for="age">Date de naissance</label>
+                                </div>
+                                <div class="height40px">
+                                    <label for="aditionalAdress">Complement d'adresse </label>
+                                </div>
+                                <div class="height40px">
+                                    <label for="adress">Adresse postale</label>
+                                </div>
+                                <div class="height40px">
+                                    <label for="zipCode">Code postal</label>
+                                </div>
+                                <div class="height40px">
+                                    <label for="city">Ville</label>
+                                </div>
+                                <div class="height40px">
+                                    <label for="password">Mot de passe</label>
+                                </div>
+                            </div>
+                            <div class="blockColumn2 txtAlignleft">
+                                <div class="height40px ">
+                                    <input class="width100" type="text" id="fName" name="fName" placeholder="Nom">
+                                </div>
+                                <div class="height40px">
+                                    <input class="width100" type="text" name="lName" id="lName" placeholder="Prénom">
+                                </div>
+                                <div class="height40px">
+                                    <input class="width100" type="email" name="email" id="email"
+                                        placeholder="Adresse mail">
+                                </div>
+                                <div class="height40px">
+                                    <input class="width100" type="tel" name="phoneNumber" id="phoneNumber"
+                                        placeholder="Numéro de téléphone">
+                                </div>
+                                <div class="height40px">
+                                    <input class="width100" type="date" name="age" id="age" placeholder="Âge">
+                                </div>
+                                <div class="height40px">
+                                    <input class="width100" type="text" id="adress" name="adress"
+                                        placeholder="Adresse postale">
+                                </div>
+                                <div class="height40px">
+                                    <input class="width100" type="text" id="aditionalAdress" name="aditionalAdress"
+                                        placeholder="n° rue, étages, lieu-dit ....">
+                                </div>
+                                <div class="height40px">
+                                    <input class="width100" type="text" name="zipCode" id="zipCode"
+                                        placeholder="Code postal">
+                                </div>
+                                <div class="height40px">
+                                    <input class="width100" type="text" name="city" id="city" placeholder="Ville">
+                                </div>
+                                <div class="height40px">
+                                    <input class="width100" type="password" name="password" id="password"
+                                        placeholder="Mot de passe">
+                                </div>
+                            </div>
+                        </div>
                         <button class="buttonValid" onclick="document.location.href='newUser.html';">Je valide ma
                             demande</button>
                     </div>

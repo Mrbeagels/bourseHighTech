@@ -27,7 +27,6 @@
     </header>
 
     <!-- MAIN -->
-    <!-- <div class="main"> -->
     <main>
 
         <!-- <div>
@@ -50,30 +49,38 @@
             <div class="blockZoningTxt">
                 <fieldset class="zoningFieldset">
                     <legend class="blockZoningTitle ">Options de l'emplacement</legend>
-                    <div class="zoningSelect">
+                    <div class="zoningSelect txtAlignCenter">
                         <label for="typeSeller">Vous êtes : </label>
                         <input type="radio" name="typeSeller" id="pro">Professionnel
                         <input type="radio" name="typeSeller" id="amateur">Particulier
                     </div>
-                    <div class="zoningSelect">
-                        <label for="meter">Nombre de mètres souhaités : </label>
-                        <select name="meter" id="meter">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                    <div class="zoningSelect">
-                        Situation souhaitée :
-                        <select name="zoning" id="zoning">
-                            <option>Nord</option>
-                            <option>Ouest</option>
-                            <option>Centre</option>
-                            <option>Est</option>
-                            <option>Sud</option>
-                        </select>
+                    <div class="blockRow">
+                        <div class="blockColumn2">
+                            <label class="height60px txtAlignRight" for="meter">Nombre de mètres souhaités : </label>
+                            <label class="height30px txtAlignRight" for="situation">Localisation souhaitée : </label>
+                        </div>
+                        <div class="blockColumn">
+                            <div class="height60px">
+                                <select class="select100px" name="meter" id="meter">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="height30px">
+                                <select class="select100px" name="zoning" id="zoning">
+                                    <option>Nord</option>
+                                    <option>Ouest</option>
+                                    <option>Centre</option>
+                                    <option>Est</option>
+                                    <option>Sud</option>
+                                </select>
+                            </div>
+                        </div>
+
+
                     </div>
                     <div class="zoningValid">
                         <button class="buttonValid" onclick="document.location.href='connect.html';">Enregistrer ma

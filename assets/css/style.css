@@ -105,6 +105,10 @@ main {
     align-items: center;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .infoGeneral {
     width: 40%;
     /* text-align: center; */
@@ -336,13 +340,13 @@ p {
     max-width: 26%;
     border-radius: 10px;
 }
+
 .imgCovidBig {
     max-width: 100%;
     border-radius: 10px;
 }
 
 .fieldsetInformation {
-    text-align: left;
     margin-left: 10px;
 }
 
@@ -506,6 +510,18 @@ footer {
     margin-left: 100px;
 }
 
+.txtAlignLeft {
+    text-align: left;
+}
+
+.txtAlignCenter {
+    text-align: center;
+}
+
+.txtAlignRight {
+    text-align: right;
+}
+
 .blockContact {
     display: flex;
     flex-direction: row;
@@ -513,10 +529,6 @@ footer {
     text-align: left;
     align-content: center;
     flex: 2;
-}
-
-.height30px {
-    height: 30px;
 }
 
 .SScontact {
@@ -577,4 +589,78 @@ textarea {
 /* Inscription succès */
 .profilInscription {
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* CLASS STANDARD */
+
+.blockColumn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5px;
+    flex: 1;
+}
+
+.blockColumn2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5px;
+    flex: 2;
+}
+.blockColumn3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5px;
+    flex: 3;
+}
+
+.blockRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.blockRow2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 2;
+}
+.justifyContent{
+    justify-content: center;
+    align-items: center;
+}
+
+.select100px {
+    width: 100px;
+}
+
+.height20px {
+    height: 20px;
+}
+
+.height30px {
+    height: 30px;
+}
+
+.height40px {
+    height: 40px;
+}
+
+.height60px {
+    height: 60px;
+}
+
+.width100 {
+    width: 100%;
 }

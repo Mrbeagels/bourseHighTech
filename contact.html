@@ -28,35 +28,34 @@
     <main>
 
         <!-- BANDEAU FORMULAIRE -->
-        <p class="txtContact">Afin de pouvoir vous recontacter par téléphone ou par mail, veuillez nous envoyer vos
-            informations ci-dessous</p>
+        <p class="txtAlignCenter">Vous pouvez nous contacter en remplissant le <i>Formulaire de contact</i> ou via les
+            réseaux sociaux ci-dessous</p>
         <div class="SStxtColumn">
 
             <!-- Partie du bloc "Nous contacter" -->
             <div class="blockContact">
                 <fieldset class="SScontact formulaire">
-                    <legend>Nous contacter</legend>
-                    <div class="height30px">
-                        <label for="lName">Nom : </label>
-                        <input type="text" name="lName" id="lName" placeholder="Nom">
-                    </div>
-                    <div class="height30px">
-                        <label for="fName">Prénom : </label>
-                        <input type="text" name="fName" id="fName" placeholder="Prénom">
-                    </div>
-                    <div class="height30px">
-                        <label for="phoneNumber">Numéro de téléphone : </label>
-                        <input type="tel" name="phoneNumber" placeholder="Numéro de téléphone" id="phoneNumber">
-                    </div>
-                    <div class="height30px">
-                        <label for="mailAdress">Adresse mail : </label>
-                        <input type="email" name="mailAdress" id="mailAdress" placeholder="Adresse mail">
+                    <legend>Formulaire de contact</legend>
+                    <div class="blockRow ">
+                        <div class="blockColumn ">
+                            <label class="height30px txtAlignRight" for="lName">Nom</label>
+                            <label class="height30px txtAlignRight" for="fName">Prénom</label>
+                            <label class="height30px txtAlignRight" for="phoneNumber">Numéro de téléphone</label>
+                            <label class="height30px txtAlignRight" for="mailAdress">Adresse mail</label>
+                        </div>
+                        <div class="blockColumn">
+                            <input type="text" name="lName" id="lName" placeholder="Nom">
+                            <input type="text" name="fName" id="fName" placeholder="Prénom">
+                            <input type="tel" name="phoneNumber" placeholder="Numéro de téléphone" id="phoneNumber">
+                            <input type="email" name="mailAdress" id="mailAdress" placeholder="Adresse mail">
+                        </div>
                     </div>
                     <div>
-                        <label for="Request">Motif de la demande : </label>
+                        <label class="height30px" for="Request">Motif de la demande</label>
                         <textarea type="text" name="Request" id="Request"
                             placeholder="Expliquez votre problème"></textarea>
                     </div>
+                    <div class="height30px"></div>
                     <button class="buttonValid" onclick="document.location.href='nousContacter.html';">
                         <strong>Envoyer</strong>
                     </button>
@@ -99,7 +98,7 @@
                 </div>
                 <div class="reseauSociaux">
                     <img class="imgReseauSociauxThierry" src="assets/img/thierry.jpg">
-                    <p class="txtReseauSociaux">P'tit prof</p>
+                    <p class="txtReseauSociaux">AdopteUnProf.com</p>
                 </div>
                 <div class="reseauSociaux">
                     <img class="imgReseauSociaux" src="assets/img/badoo.svg">
