@@ -11,7 +11,7 @@ body {
 }
 
 /* HEADER */
-/*.header {
+.header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -21,7 +21,7 @@ body {
     border: 2px solid #6D90C6;
     border-radius: 10px;
     margin-bottom: 20px;
-}*/
+}
 
 header {
     display: flex;
