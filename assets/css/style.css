@@ -11,7 +11,19 @@ body {
 }
 
 /* HEADER */
-.header {
+/*.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100px;
+    flex: 1;
+    align-items: center;
+    border: 2px solid #6D90C6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}*/
+
+header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -21,12 +33,13 @@ body {
     align-items: center;
     border: 2px solid #6D90C6;
     border-radius: 10px;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
 }
 
 .logo {
     width: 10%;
     text-align: center;
+    margin-top: 10px;
 }
 
 .logoSite {
@@ -64,7 +77,14 @@ body {
 }
 
 /* MAIN */
-.main {
+/*.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 12;
+}*/
+
+main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -90,6 +110,60 @@ body {
 .blockImgBrocante {
     width: 20%;
     /* text-align: center; */
+}
+
+.txtAlignCenter{
+    text-align: center;
+}
+
+.blockZoning {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex:1;
+    /* background-color:pink; */
+    text-align: center;
+    align-items: center;
+}
+.blockZoningImg {
+    margin:10px;
+    flex:3;
+}
+.blockZoningTxt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex:3;
+    /* background-color:pink; */
+    text-align: center;
+    align-items: center;
+    /* margin:10px; */
+}
+.blockZoningTitle{
+    font-size: xx-large;
+    margin:20px;
+    /* width:100%; */
+}
+.zoningFieldset{
+    width:80%;
+    margin:20px;
+    /* width:100%; */
+}
+.zoningSelect {
+    width: 80%;
+    height:30%;
+    margin:20px;
+    text-align:left;
+    /* background-color: blue; */
+}
+.zoningValid {
+    height:30%;
+    margin:20px;
+    text-align:center;
+    /* background-color: blue; */
+}
+select{
+    height:30px;
 }
 
 .imgBrocante {
@@ -220,8 +294,9 @@ li{
     flex-direction: column;
     align-items: center;
     text-align:center;
+    justify-items: center;
     flex: 3;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 .txtColumnCovid { 
@@ -282,8 +357,21 @@ legend{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width:30%;
+    width:20%;
     margin:10px;
+}
+.profileAskInfo{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex:2;
+}
+.profileAsk{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:95%;
+    margin: 10px;
 }
 .profileInfo{
     display:flex;
@@ -321,7 +409,18 @@ legend{
 
 
 /* FOOTER */
-.footer {
+/*.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #6D90C6;
+    border-radius: 10px;
+}*/
+
+footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -425,7 +524,7 @@ legend{
 }
 
 .tatoo{
-    font-size: 12px;
+    font-size: 15px;
 }
 
 /* Inscription succès */

@@ -7,40 +7,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Electrolize:300,400,600,700&amp;lang=en" /> -->
-    <title>Profil</title>
+    <link rel="shortcut icon" href="assets/img/logoBourse32px.ico" type="image/x-icon">
+    <meta name="description" content="Le site de la bourse technologique de la mairie d'Amiens vous accueil afin d'organiser la première édition de cette bourse. 
+    L'ensemble des informations sur le déroulement y sont indiquées et vous pourrez vous inscrire pour y participer.">
+    <title>Bourse Tech de l'école LaManu</title>
 </head>
 
 <body>
-
     <!-- HEADER -->
-    <div class="header">
+    <div class="header" w3-include-html="header.html" id="demo">
         <div class="logo">
             <!-- LOGO -->
             <a href="index.html"><img class="logoSite" src="assets/img/logoBourse.jpg"></a>
         </div>
         <div class="titleSite">
-            BOURSE TECHNOLOGIQUE DE LA MAIRIE D'AMIENS
+            <strong> BOURSE TECHNOLOGIQUE DE LA MAIRIE D'AMIENS </strong> 
+            <br>24 Juillet - Place Léon DEBOUVENIE
         </div>
         <!-- <div class="eventDate">
             Rappel de l'évènement
         </div> -->
         <div class="connexion">
-            <!-- <form action="connect.html" method="post"> -->
-            <button class="button" onclick="document.location.href='connect.html';">Connexion</button>
-            <!-- </form> -->
+            <img class="imgBrocante" src="assets/img/profil.png" >
         </div>
+
+        
     </div>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img class="logoSite" src="assets/img/logoBourse.jpg"></a>
+        </div>
+        <div class="titleSite">
+            <strong> BOURSE TECHNOLOGIQUE DE LA MAIRIE D'AMIENS </strong> 
+            <br>24 Juillet - Place Léon DEBOUVENIE
+        </div>
+        <div class="connexion">
+            <button class="button" onclick="document.location.href='connect.html';">Connexion</button>
+        </div>
+    </header>
 
     <!-- MAIN -->
     <div class="main">
-        <div class="profileBanner">
+        <div class="profileBanner txtAlignCenter">
             Bienvenue Lothiste
         </div>
         <div class="blockPhotoTxt">
-
             <div class="profileTxt">
                 <fieldset>
-                    <legend>Vos informations personnelles</legend>
+                    <legend>Informations personnelles</legend>
                     <div class="profileInfo">
                         <div class="profileInfoTxt">
                             <div class="profileTxtInfo">Nom</div>
@@ -61,27 +76,46 @@
                     </div>
                 </fieldset>
             </div>
-            <div class="profileAsk">
-                <fieldset>
-                    <legend>Votre demande d'emplacement</legend>
-                    <ul>
-                        <li>Particulier</li>
-                        <li>2 emplacements</li>
-                        <li>Côté mairie</li>
-                        <li>Accès voiture</li>
-                    </ul>
-                </fieldset>
+            <div class="profileAskInfo">
+                <div class="profileAsk">
+                    <fieldset>
+                        <legend>Votre demande</legend>
+                        <ul>
+                            <li>Particulier</li>
+                            <li>2 mètres</li>
+                            <li>Zone Est</li>
+                        </ul>
+                    </fieldset>
+                </div>
+                <div class="profileAsk">
+                    <fieldset>
+                        <legend>Rappel des informations</legend>
+                        <ul>
+                            <li>Arrivée à 8H</li>
+                            <li>Fin des ventes à 19h</li>
+                            <li>Emplacement libéré à 20h maximum</li>
+                        </ul>
+                    </fieldset>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
+    <!-- </div> -->
 
     <!-- FOOTER -->
-    <div class="footer">
+    <!-- <div class="footer">
         <div class="copyright">&#169;LOTHISTE</div>
         <div class="contact"><a href="contact.html">Nous contacter</a></div>
         <div class="cgu"><a href="cgu.html">CGU</a></div>
         <div class="help"><a href="help.html">Aide</a></div>
-    </div>
+    </div> -->
+
+    <footer>
+        <div class="copyright">&#169;LOTHISTE</div>
+        <div class="contact"><a href="contact.html">Nous contacter</a></div>
+        <div class="cgu"><a href="cgu.html">CGU</a></div>
+        <div class="help"><a href="help.html">Aide</a></div>   
+    </footer>
 </body>
 
 </html>
