@@ -11,7 +11,19 @@ body {
 }
 
 /* HEADER */
-.header {
+/*.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100px;
+    flex: 1;
+    align-items: center;
+    border: 2px solid #6D90C6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}*/
+
+header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -21,12 +33,13 @@ body {
     align-items: center;
     border: 2px solid #6D90C6;
     border-radius: 10px;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
 }
 
 .logo {
     width: 10%;
     text-align: center;
+    margin-top: 10px;
 }
 
 .logoSite {
@@ -63,7 +76,14 @@ body {
 }
 
 /* MAIN */
-.main {
+/*.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 12;
+}*/
+
+main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -387,7 +407,18 @@ legend{
 
 
 /* FOOTER */
-.footer {
+/*.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #6D90C6;
+    border-radius: 10px;
+}*/
+
+footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -509,7 +540,7 @@ text-align:center;
 }
 
 .tatoo{
-    font-size: 12px;
+    font-size: 15px;
 }
 
 /* Inscription succès */
