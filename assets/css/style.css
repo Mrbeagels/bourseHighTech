@@ -10,7 +10,7 @@ body {
     flex-wrap: wrap;
     height: 100%;
     flex-direction: column;
-    background-color:#B5DCC9;
+    background-color: #B5DCC9;
 }
 
 
@@ -68,15 +68,15 @@ body {
     height: 40px;
     width: 120px;
     border-radius: 10px;
-    background-color:#6D90C6;
+    background-color: #6D90C6;
 }
 
 .buttonValid {
     font-size: large;
-    height:40px;
-    width:100%;
+    height: 40px;
+    width: 100%;
     border-radius: 10px;
-    background-color:#6D90C6;
+    background-color: #6D90C6;
 }
 
 /* MAIN */
@@ -115,7 +115,7 @@ main {
     /* text-align: center; */
 }
 
-.txtAlignCenter{
+.txtAlignCenter {
     text-align: center;
 }
 
@@ -123,50 +123,57 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    flex:1;
+    flex: 1;
     /* background-color:pink; */
     text-align: center;
     align-items: center;
 }
+
 .blockZoningImg {
-    margin:10px;
-    flex:3;
+    margin: 10px;
+    flex: 3;
 }
+
 .blockZoningTxt {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex:3;
+    flex: 3;
     /* background-color:pink; */
     text-align: center;
     align-items: center;
     /* margin:10px; */
 }
-.blockZoningTitle{
+
+.blockZoningTitle {
     font-size: xx-large;
-    margin:20px;
+    margin: 20px;
     /* width:100%; */
 }
-.zoningFieldset{
-    width:80%;
-    margin:20px;
+
+.zoningFieldset {
+    width: 80%;
+    margin: 20px;
     /* width:100%; */
 }
+
 .zoningSelect {
     width: 80%;
-    height:30%;
-    margin:20px;
-    text-align:left;
+    height: 30%;
+    margin: 20px;
+    text-align: left;
     /* background-color: blue; */
 }
+
 .zoningValid {
-    height:30%;
-    margin:20px;
-    text-align:center;
+    height: 30%;
+    margin: 20px;
+    text-align: center;
     /* background-color: blue; */
 }
-select{
-    height:30px;
+
+select {
+    height: 30px;
 }
 
 .imgBrocante {
@@ -186,26 +193,26 @@ select{
 }
 
 .infoFirstBottomPhoto {
-    flex:2;
-    text-align:center;
+    flex: 2;
+    text-align: center;
 }
 
 .infoFirstBottomTxt {
-    flex:3;
-    text-align:left;
-    margin-right:40px;
+    flex: 3;
+    text-align: left;
+    margin-right: 40px;
 }
 
 /* BANNER */
 .bannerBoard {
     max-width: 95%;
-    margin:20px;
+    margin: 20px;
 }
 
 /* SECURITY */
 .securityLeft {
     flex: 1;
-    text-align:left;
+    text-align: left;
 }
 
 .securityRight {
@@ -224,29 +231,30 @@ select{
     margin: 0px 40px 0px 40px;
 }
 
-.securityImg{
-flex:1;
+.securityImg {
+    flex: 1;
 }
 
-.imgSecurity{
-    max-width:50%;
+.imgSecurity {
+    max-width: 50%;
 }
 
-.securityTxt{
-    flex:3;
-    text-align:center;
-}
-.securityTxtFull{
-width:90%;
-margin-left:40px;
+.securityTxt {
+    flex: 3;
+    text-align: center;
 }
 
-fieldset{
+.securityTxtFull {
+    width: 90%;
+    margin-left: 40px;
+}
+
+fieldset {
     border-radius: 10px;
     border-color: #6D90C6;
 }
 
-.pBig{
+.pBig {
     font-size: x-large;
 }
 
@@ -256,16 +264,18 @@ fieldset{
     flex-direction: row;
     align-items: flex-start;
 }
-.help{
-    width:20%
+
+.help {
+    width: 20%
 }
+
 /* modification des formulaires à revoir:  */
 
-.reservation{
+.reservation {
     padding: 20px;
 }
 
-input{
+input {
     margin: 5px;
 }
 
@@ -283,14 +293,15 @@ input{
 
 .blockReservation {
     align-items: center;
-    text-align:left;
+    text-align: left;
     align-items: center;
 }
 
-li{
-    margin:5px;
+li {
+    margin: 5px;
 }
-p{
+
+p {
     font-size: large;
 }
 
@@ -299,14 +310,14 @@ p{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    text-align:center;
+    text-align: center;
     justify-items: center;
     flex: 3;
     /*align-items: center;*/
 }
 
-.txtColumnCovid { 
-    margin:20px;
+.txtColumnCovid {
+    margin: 20px;
 }
 
 .infoTxtTitle {
@@ -318,29 +329,33 @@ p{
     max-width: 110px;
     max-height: 110px;
 }
+
 .imgCovid {
     max-width: 26%;
 }
 
-.fieldsetInformation{
-    text-align:left;
+.fieldsetInformation {
+    text-align: left;
     margin-left: 10px;
 }
 
 
 /* CONNECT - NEW */
-.LFconnect{
-    width:45%;
-    margin:2%;
+.LFconnect {
+    width: 45%;
+    margin: 2%;
     align-items: flex-start;
 }
-.LFnew{
-    width:45%;
-    margin:2%;
+
+.LFnew {
+    width: 45%;
+    margin: 2%;
 }
-input{
-    max-width:100%;
+
+input {
+    max-width: 100%;
 }
+
 .infoFirstConnect {
     display: flex;
     flex-wrap: wrap;
@@ -348,68 +363,77 @@ input{
     width: 100%;
     align-items: flex-start;
 }
-legend{
+
+legend {
     font-size: x-large;
 }
 
 
 
 /* PROFILE */
-.profileBanner{
+.profileBanner {
     font-size: xx-large;
-    margin:10px;
-}
-.profileAsk{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width:20%;
-    margin:10px;
-}
-.profileAskInfo{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    flex:2;
-}
-.profileAsk{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width:95%;
     margin: 10px;
 }
-.profileInfo{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex:1;
-}
-.profileInfoTxt{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-align:right;
-    font-style: italic;
-    flex:2;
-}
-.profileInfoTxtUser{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex:5;
-}
-.profileTxt{
-    display:flex;
+
+.profileAsk {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width:50%;
-    margin:10px;
+    width: 20%;
+    margin: 10px;
 }
-.profileTxtInfo{
-    width:100%;
-    height:30px;
-    margin:10px;
+
+.profileAskInfo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 2;
+}
+
+.profileAsk {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 95%;
+    margin: 10px;
+}
+
+.profileInfo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+}
+
+.profileInfoTxt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: right;
+    font-style: italic;
+    flex: 2;
+}
+
+.profileInfoTxtUser {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 5;
+}
+
+.profileTxt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+}
+
+.profileTxtInfo {
+    width: 100%;
+    height: 30px;
+    margin: 10px;
 }
 
 
@@ -439,7 +463,7 @@ footer {
 }
 
 .copyright {
-    font-size:small;
+    font-size: small;
     width: 20%;
     /* background-color:blue; */
 }
@@ -457,12 +481,12 @@ footer {
 }
 
 /* CGU */
-.informLegal{
+.informLegal {
     font-size: 30px;
     color: #6D90C6;
 }
 
-.cguFont{
+.cguFont {
     font-size: 15px;
 }
 
@@ -479,12 +503,16 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-align:left;
+    text-align: left;
     align-content: center;
-    width: 60vh;
+    flex: 2;
 }
 
-.SScontact{
+.height30px {
+    height: 30px;
+}
+
+.SScontact {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -492,48 +520,54 @@ footer {
 
 }
 
+textarea {
+    width: 99%;
+    height: 100px;
+}
+
 .bpEnvoiContact {
     align-self: center;
     font-size: large;
-    height:30px;
+    height: 30px;
     border-radius: 10px;
     width: 100px;
 }
 
-.fullreseauSociaux{
+.fullreseauSociaux {
     display: flex;
     flex-direction: column;
-    margin-left: 5vh;
-    width: 30vh;
+    flex: 1;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 30px;
 }
 
-.reseauSociaux{
+.reseauSociaux {
     display: flex;
 }
 
-.imgReseauSociaux{
-    width:15%;
+.imgReseauSociaux {
+    width: 10%;
     margin-top: auto;
-    margin-bottom: auto;
-}
-.imgReseauSociauxThierry{
-    width:15%;
-    margin-top: auto;
-    border-radius:5px;
     margin-bottom: auto;
 }
 
-.txtReseauSociaux{
+.imgReseauSociauxThierry {
+    width: 10%;
+    margin-top: auto;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.txtReseauSociaux {
     margin-left: 10px;
 }
 
-.tatoo{
+.tatoo {
     font-size: 15px;
 }
 
 /* Inscription succès */
-.profilInscription{
+.profilInscription {
     text-align: center;
 }
