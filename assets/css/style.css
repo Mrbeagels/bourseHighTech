@@ -111,6 +111,60 @@ main {
     /* text-align: center; */
 }
 
+.txtAlignCenter{
+    text-align: center;
+}
+
+.blockZoning {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex:1;
+    /* background-color:pink; */
+    text-align: center;
+    align-items: center;
+}
+.blockZoningImg {
+    margin:10px;
+    flex:3;
+}
+.blockZoningTxt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex:3;
+    /* background-color:pink; */
+    text-align: center;
+    align-items: center;
+    /* margin:10px; */
+}
+.blockZoningTitle{
+    font-size: xx-large;
+    margin:20px;
+    /* width:100%; */
+}
+.zoningFieldset{
+    width:80%;
+    margin:20px;
+    /* width:100%; */
+}
+.zoningSelect {
+    width: 80%;
+    height:30%;
+    margin:20px;
+    text-align:left;
+    /* background-color: blue; */
+}
+.zoningValid {
+    height:30%;
+    margin:20px;
+    text-align:center;
+    /* background-color: blue; */
+}
+select{
+    height:30px;
+}
+
 .imgBrocante {
     width: 60%;
 }
@@ -302,8 +356,21 @@ legend{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width:30%;
+    width:20%;
     margin:10px;
+}
+.profileAskInfo{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex:2;
+}
+.profileAsk{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:95%;
+    margin: 10px;
 }
 .profileInfo{
     display:flex;

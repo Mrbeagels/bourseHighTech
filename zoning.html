@@ -16,11 +16,11 @@
 
 <body>
     <!-- HEADER -->
-    <!-- <div class="header" w3-include-html="header.html">
-            <script>
-                includeHTML();
-            </script>
-    </div> -->
+    <div class="header" w3-include-html="header.html">
+        <script>
+            includeHTML();
+        </script>
+    </div>
 
     <header>
         <div class="logo">
@@ -36,19 +36,66 @@
     </header>
 
     <!-- MAIN -->
-    <!-- <div class="main"> -->
-    <main>
-        
-    </main>     
-    <!-- </div> -->
+    <div class="main">
+        <!-- <div>
+            <p><strong>Consignes :</strong></p>
+            <p>
+                les emplacements sont limités à 5 mètres maximum
+                <br>
+                Les exposants doivent prendre possession de leur emplacement avant 8h45
+                <br>
+                Pas de vente de pr
+            </p>
+            <p>
+
+            </p>
+        </div> -->
+        <div class="blockZoning">
+            <div class="blockZoningImg">
+                <img src="assets/img/zoning.jpg">
+            </div>
+            <div class="blockZoningTxt">
+                <fieldset class="zoningFieldset">
+                    <legend class="blockZoningTitle ">Options de l'emplacement</legend>
+                    <div class="zoningSelect">
+                        <label for="typeSeller">Vous êtes : </label>
+                        <input type="radio" name="typeSeller" id="pro">Professionnel
+                        <input type="radio" name="typeSeller" id="amateur">Particulier
+                    </div>
+                    <div class="zoningSelect">
+                        <label for="meter">Nombre de mètres souhaités : </label>
+                        <select name="meter" id="meter">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="zoningSelect">
+                        Situation souhaitée :
+                        <select name="zoning" id="zoning">
+                            <option>Nord</option>
+                            <option>Ouest</option>
+                            <option>Centre</option>
+                            <option>Est</option>
+                            <option>Sud</option>
+                        </select>
+                    </div>
+                    <div class="zoningValid">
+                        <button class="buttonValid" onclick="document.location.href='connect.html';">Enregistrer ma
+                            demande</button>
+                    </div>
+                </fieldset>
+                <p>
+                    Pensez à consulter les <a href="cgu.html" target="_blank">CGU</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
 
     <!-- FOOTER -->
-    <!-- <div class="footer">
-        <div class="copyright">&#169;LOTHISTE</div>
-        <div class="contact"><a href="contact.html">Nous contacter</a></div>
-        <div class="cgu"><a href="cgu.html">CGU</a></div>
-        <div class="help"><a href="help.html">Aide</a></div>
-    </div> -->
 
     <footer>
         <div class="copyright">&#169;LOTHISTE</div>
