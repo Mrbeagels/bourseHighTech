@@ -178,10 +178,12 @@ select {
 
 .imgBrocante {
     width: 60%;
+    border-radius: 10px;
 }
 
 .imgBrocanteBig {
     width: 80%;
+    border-radius: 10px;
 }
 
 .infoFirstBottom {
@@ -332,6 +334,11 @@ p {
 
 .imgCovid {
     max-width: 26%;
+    border-radius: 10px;
+}
+.imgCovidBig {
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 .fieldsetInformation {
