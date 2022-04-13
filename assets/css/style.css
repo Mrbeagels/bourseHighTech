@@ -10,6 +10,7 @@ body {
     background-color:#B5DCC9;
 }
 
+
 /* HEADER */
 .header {
     display: flex;
@@ -23,18 +24,17 @@ body {
     margin-bottom: 20px;
 }
 
-header {
+/* header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     height: 100px;
     flex: 1;
-    /* background-color:aqua; */
     align-items: center;
     border: 2px solid #6D90C6;
     border-radius: 10px;
     margin-bottom: 20px;
-}
+} */
 
 .logo {
     width: 10%;
