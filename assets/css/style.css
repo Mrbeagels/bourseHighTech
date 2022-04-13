@@ -21,12 +21,13 @@ body {
     align-items: center;
     border: 2px solid #6D90C6;
     border-radius: 10px;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
 }
 
 .logo {
     width: 10%;
     text-align: center;
+    margin-top: 10px;
 }
 
 .logoSite {
@@ -442,7 +443,7 @@ text-align:center;
 }
 
 .tatoo{
-    font-size: 12px;
+    font-size: 15px;
 }
 
 /* Inscription succès */
